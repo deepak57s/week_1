@@ -1,0 +1,15 @@
+body {
+            background: linear-gradient(to bottom, #cbf3f0, #2ec4b6);
+            font-family: 'Arial', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .bg-section {
+            background-color: #ffbf69;
+}
