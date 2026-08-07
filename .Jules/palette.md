@@ -1,0 +1,3 @@
+## 2024-05-18 - Improve Image Accessibility (Alt Text)
+**Learning:** In the weather app, some images like the main weather icon are decorative (since the weather condition "SUNNY" is explicitly spelled out beneath it) and therefore should use an empty `alt=""` attribute to avoid screen reader redundancy. However, the smaller forecast icons are informative (since there is no adjacent text indicating the condition) and require descriptive `alt` tags to be properly announced.
+**Action:** Always evaluate whether an image provides unique information or if it's purely decorative/redundant with adjacent text when deciding on the appropriate `alt` text strategy.
